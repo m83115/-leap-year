@@ -7,9 +7,9 @@
 
 
 function bmiCalculator(height, weight) {
-  var height = height / 100
-  var weight
-  var bmi = weight / (height ** 2)
+  // var height = height / 100
+  // var weight
+  var bmi = weight / (height / 100) ** 2
   return Math.floor(bmi * 10) / 10 
 }
   // 身高 170 公分、體重 65 公斤

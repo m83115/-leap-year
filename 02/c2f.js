@@ -8,5 +8,5 @@ function c2f(t) {
     
   // 85度c -> ??f
   
-  console.log(c2f(85))
+console.log(c2f(85))
   
